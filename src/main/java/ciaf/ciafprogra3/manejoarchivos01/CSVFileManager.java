@@ -13,8 +13,11 @@ public class CSVFileManager {
     // Método para escribir en un archivo CSV
     public static void writeToCSV(String fileName, List<String[]> data) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName))) {
+            // Itera sobre cada registro en la lista de datos
             for (String[] record : data) {
+                // Itera sobre cada registro en la lista de datos
                 writer.write(String.join(",", record));
+                // Itera sobre cada registro en la lista de datos
                 writer.newLine();
             }
             System.out.println("Se escribió en el archivo CSV correctamente.");
@@ -26,11 +29,16 @@ public class CSVFileManager {
 
     // Método para leer desde un archivo CSV
     public static List<String[]> readFromCSV(String fileName) {
+        // Crea una lista para almacenar los registros leídos desde el archivo CSV
         List<String[]> data = new ArrayList<>();
         try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
+            // Abre un BufferedReader para leer desde el archivo especificado.
             String line;
+            // Lee cada línea del archivo y la divide por comas para obtener los campos del registro
             while ((line = reader.readLine()) != null) {
+                // Divide la línea por comas y obtiene un array de strings que representa el registro
                 String[] record = line.split(",");
+                // Agrega el registro a la lista de datos
                 data.add(record);
             }
         } catch (IOException e) {
