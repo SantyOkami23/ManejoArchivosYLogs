@@ -1,0 +1,14 @@
+
+\
+java:S6213":Rename this variable to not match a restricted identifier.(©ñ®ƒûÿÿÿÿ8…³ëÃî1
+L	java:S106"+Replace this use of System.out by a logger.(ßÄ’ûÿÿÿÿ8…³ëÃî1
+L	java:S106"+Replace this use of System.out by a logger.(Ø¤œ˜øÿÿÿÿ8…³ëÃî1
+\
+java:S6213"":Rename this variable to not match a restricted identifier.(›Ú¦ıÿÿÿÿ8•³ëÃî1
+G	java:S106&"+Replace this use of System.out by a logger.(ğØ”¢8¤³ëÃî1
+W
+java:S62139":Rename this variable to not match a restricted identifier.(¦ë¤ô8¤³ëÃî1
+L	java:S106:"+Replace this use of System.out by a logger.( ÍËøÿÿÿÿ8¤³ëÃî1
+L	java:S106<"+Replace this use of System.out by a logger.(äîÓÕşÿÿÿÿ8´³ëÃî1
+F
+java:S1128")Remove this unused import 'java.io.File'.(†Ğ¥Å8´³ëÃî1

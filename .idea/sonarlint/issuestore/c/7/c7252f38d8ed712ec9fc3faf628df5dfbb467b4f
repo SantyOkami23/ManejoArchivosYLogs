@@ -1,0 +1,11 @@
+
+r	java:S106"+Replace this use of System.out by a logger.(ÓæùØûÿÿÿÿ8 ¾ïÃî1J$0c1ea56f-0889-4994-9b4a-0b30f566b3ae
+r	java:S106"+Replace this use of System.out by a logger.(òû‘Àüÿÿÿÿ8£¾ïÃî1J$33972199-1c8a-4f0b-821f-6ef76bc699be
+m	java:S106-"+Replace this use of System.out by a logger.(Éç¿8²¾ïÃî1J$a826e592-a65f-4459-9e46-07a6434bd227
+r	java:S106/"+Replace this use of System.out by a logger.(ë¡­êıÿÿÿÿ8´¾ïÃî1J$fe9baf15-3bfa-48ac-8352-61d18f2d8cdc
+m	java:S106>"+Replace this use of System.out by a logger.(ÜğæÔ8½¾ïÃî1J$4a9217e4-3f2a-4f0c-a3b2-080893a1b9ab
+m	java:S106?"+Replace this use of System.out by a logger.(Ó–±©8¿¾ïÃî1J$ec19f0a6-4379-49bf-897c-38eaced9f645
+s
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8’şòÃî1J$cfa9c97c-bb75-443e-bbd5-6bf006381657
+‰
+java:S1128	"ARemove this unused import 'org.apache.pdfbox.pdmodel.PDPageTree'.(Û‚ßøÿÿÿÿ8’şòÃî1J$0e38dae5-f815-496b-96a3-19a1db5f6772
