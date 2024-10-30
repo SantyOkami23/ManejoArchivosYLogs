@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
         try {
-            logger.info("HOLA");
+            logger.info("HOLA ESTO ES UN LOGGER");
             List<User> users = UserGenerator.generateUsers();
 
             // Imprime la lista de usuarios

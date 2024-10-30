@@ -66,11 +66,12 @@ public class PDFFileManager {
 
     public static void main(String[] args) {
         // Ejemplo de uso
-        String fileName = "example.pdf";
+       String fileName = "example.pdf";
+       // String fileName = "C:\\Users\\pc\\Desktop\\ManejoArchivosYLogs\\src\\main\\java\\ciaf\\ciafprogra3\\manejoarchivos01\\PrincipiosSOLID.pdf";
         String textToWrite = "Este es un ejemplo de texto para escribir en un archivo PDF.";
 
         // Escribir en archivo PDF
-        writeToPDF(fileName, textToWrite);
+         writeToPDF(fileName, textToWrite);
 
         // Leer desde archivo PDF
         String readText = readFromPDF(fileName);
